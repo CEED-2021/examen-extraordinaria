@@ -1,0 +1,87 @@
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding-top: 40px;
+  background-color: #f5f5f5;
+}
+
+img {
+  display: block;
+}
+
+.form-section {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-section .checkbox {
+  font-weight: 400;
+}
+
+.form-section .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-section input[type="text"], .form-section input[type="number"] {
+  margin-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-section input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#error {
+  display: none;
+}
+
+#error.show {
+  display: block;
+}
+
+
+#image-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-list {
+  display: flex;
+}
+
+ol, ul {
+  padding-left: 0 !important;
+}
+
+img.gallery-image {
+  width: 400px;
+  height: 400px;
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+.gallery-info {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.gallery-info button {
+  border: 1px solid #ccc;
+}
+
+.gallery-info h5 {
+  margin:0;
+}
